@@ -13,7 +13,7 @@
 @media screen and (max-width: 999px) {
 
   .lead__title {
-    font-size: calc((100vw - 320px) / (999 - 665) * (96 - 40) + 40px);
+    font-size: calc((100vw - 665px) / (999 - 665) * (96 - 40) + 40px);
   }
 }
 
