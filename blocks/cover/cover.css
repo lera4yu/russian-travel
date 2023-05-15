@@ -1,0 +1,22 @@
+.cover {
+  background-color: #2A2C2F;
+  margin: 92px auto 0 auto;
+  /*padding: 92px 48px 0 48px;*/
+  max-width: 1184px;
+  position: relative;
+  width: fit-content;
+}
+
+@media screen and (max-width: 999px) {
+
+  .cover {
+    margin: 90px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 665px) {
+
+  .cover {
+    margin: 66px auto 0 auto;
+  }
+}

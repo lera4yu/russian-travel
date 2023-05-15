@@ -1,0 +1,32 @@
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.place__paragraph:nth-child(odd) {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 999px) {
+
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+  .place__paragraph:nth-child(odd) {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.lead__image_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1100px) {
+
+  .lead__image_container {
+    max-width: 928px;
+  }
+}
