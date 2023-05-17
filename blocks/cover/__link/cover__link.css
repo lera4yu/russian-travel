@@ -6,5 +6,17 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  width: fit-content;
+  min-height: min(calc((740 / 1184) * 100vw), 740px);
+  width: 100%;
+  max-width: 1184px;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 665px) {
+
+  .cover__link {
+    min-height: max(calc((740 / 1184) * 100vw), 200px);
+  }
 }

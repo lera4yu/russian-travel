@@ -4,7 +4,6 @@
   /*padding: 92px 48px 0 48px;*/
   max-width: 1184px;
   position: relative;
-  width: fit-content;
 }
 
 .cover::before {
