@@ -1,16 +1,6 @@
 .cover__texts {
   display: flex;
   justify-content: center;
-  position: relative;
   z-index: 3;
-  width: 100%;
   flex-direction: column;
-  min-height: min(calc((740 / 1184) * 100vw), 740px);
-}
-
-@media screen and (max-width: 665px) {
-
-  .cover__texts {
-    min-height: max(calc((740 / 1184) * 100vw), 200px);
-  }
 }

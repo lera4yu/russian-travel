@@ -14,9 +14,27 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 665px) {
+.cover__link::before {
+  content: "";
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  transition: opacity 0.6s;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+}
+
+ @media screen and (max-width: 665px) {
 
   .cover__link {
     min-height: max(calc((740 / 1184) * 100vw), 200px);
   }
-}
+} 
